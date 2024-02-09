@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/memory-game.png" />
+    <title>memory matching game</title>
+  </head>
+  <body>
+    <div class="before-start">
+      <span class="start-game">PLAY</span>
+    </div>
+    <div id="lose" class="after-lose">
+      <span class="after-lose-alert">you lost the game!</span>
+    </div>
+    <div id="win" class="after-win">
+      <span class="after-win-alert">you won the game!</span>
+    </div>
+    <div class="container">
+      <div class="error">
+        <label class="errors" for="error">Erros: <span>0</span></label>
+      </div>
+      <div class="timer">
+        <label id ="time" for="time">Time Passed: 00:00</label>
+      </div>
+      <div class="grid-schedule">
+        <div id="one" class="grid-item onetofour one">
+          <img id="info-image" src="assets/images/css.png" alt="alternative">
+        </div>
+        <div id="two" class="grid-item onetofour">
+          <img id="info-image" src="assets/images/jquery.png" alt="alternative">
+        </div>
+        <div id="three" class="grid-item onetofour">
+          <img id="info-image" src="assets/images/wordpress.png" alt="alternative">
+        </div>
+        <div id="four" class="grid-item onetofour four">
+          <img id="info-image" src="assets/images/php.png" alt="alternative">
+        </div>
+        <div id="five" class="grid-item fivetoeight five">
+          <img id="info-image" src="assets/images/nodejs.png" alt="alternative">
+        </div>
+        <div id="six" class="grid-item fivetoeight">
+          <img id="info-image" src="assets/images/php.png" alt="alternative">
+        </div>
+        <div id="seven" class="grid-item fivetoeight">
+          <img id="info-image" src="assets/images/nodejs.png" alt="alternative">
+        </div>
+        <div id="eight" class="grid-item fivetoeight eight">
+          <img id="info-image" src="assets/images/ruby.png" alt="alternative">
+        </div>
+        <div id="nine" class="grid-item ninetotwelve nine">
+          <img id="info-image" src="assets/images/javascript.png" alt="alternative">
+        </div>
+        <div id="ten" class="grid-item ninetotwelve">
+          <img id="info-image" src="assets/images/photoshop.png" alt="alternative">
+        </div>
+        <div id="eleven" class="grid-item ninetotwelve">
+          <img id="info-image" src="assets/images/ruby.png" alt="alternative">
+        </div>
+        <div id="twelve" class="grid-item ninetotwelve twelve">
+          <img id="info-image" src="assets/images/jquery.png" alt="alternative">
+        </div>
+        <div id="thirteen" class="grid-item thirteentosixteen thirteen">
+          <img id="info-image" src="assets/images/python.png" alt="alternative">
+        </div>
+        <div id="fourteen" class="grid-item thirteentosixteen">
+          <img id="info-image" src="assets/images/html.png" alt="alternative">
+        </div>
+        <div id="fifteen" class="grid-item thirteentosixteen">
+          <img id="info-image" src="assets/images/javascript.png" alt="alternative">
+        </div>
+        <div id="sixteen" class="grid-item thirteentosixteen sixteen">
+          <img id="info-image" src="assets/images/html.png" alt="alternative">
+        </div>
+        <div id="seventeen" class="grid-item seventeentotwenty seventeen">
+          <img id="info-image" src="assets/images/photoshop.png" alt="alternative">
+        </div>
+        <div id="eighteen" class="grid-item seventeentotwenty">
+          <img id="info-image" src="assets/images/css.png" alt="alternative">
+        </div>
+        <div id="nineteen" class="grid-item seventeentotwenty">
+          <img id="info-image" src="assets/images/python.png" alt="alternative">
+        </div>
+        <div id="twenty" class="grid-item seventeentotwenty twenty">
+          <img id="info-image" src="assets/images/wordpress.png" alt="alternative">
+        </div>
+      </div>
+      <div class="down">
+        <button id="myBtn">replay (<span>3</span>)</button>
+        <div class="mistake">
+          Mistakes:<span>0</span>
+        </div>
+        <div class="move">
+          Moves:<span>0</span>
+        </div>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
