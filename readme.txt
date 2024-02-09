@@ -31,4 +31,4 @@ Enjoy the game!
 
 Author
 
-alireza mohammad salehi and also my email is alirezawmds1379@gmail.com
+alireza mohammad salehi and also my email is alirezawmds1379@gmail.com.
